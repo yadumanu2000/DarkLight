@@ -1,0 +1,30 @@
+.div-container {
+  background-color: #1f1f1f; /* Dark mode background color */
+  color: #ffffff; /* Dark mode text color */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.div-container .light {
+  background-color: #ffffff; /* Light mode background color */
+  color: #1f1f1f; /* Light mode text color */
+}
+
+.btn {
+  background-color: #ffffff; /* Button background color */
+  color: #1f1f1f; /* Button text color */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.light .btn {
+  background-color: #1f1f1f; /* Light mode button background color */
+  color: #ffffff; /* Light mode button text color */
+}
+
+
+
